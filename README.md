@@ -18,6 +18,7 @@ This is a software application that facilitates communication and collaboration 
 | ----------- | ----------- |
 | [Francis Allen ](https://www.linkedin.com/in/evwidonor-allen/) | Team Lead and Design  |
 | [Adegoke Fuad](https://github.com/ALIPHATICHYD) | Development |
+| [Ajibade Faruk](https://github.com/1FarukDev) | Development |
 
 
 ## To Contribute here(Version control) 🛠️

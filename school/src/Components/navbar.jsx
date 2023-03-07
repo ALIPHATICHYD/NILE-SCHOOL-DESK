@@ -21,17 +21,25 @@ import logo from '../assets/Images/Logo.svg'
                 Home
               </a>
             </li>
-            <li>
-              <a href="#">Shop</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
+
+          
             <li>
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Content</a>
+              <a href="#">Plus</a>
+            </li>
+            <li>
+              <a href="#">School</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <a href="#" className="sign">Sign Up</a>
             </li>
           </ul>
         </div>

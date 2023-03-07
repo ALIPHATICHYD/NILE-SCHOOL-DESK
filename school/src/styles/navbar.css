@@ -19,7 +19,7 @@ nav{
 #navbar li a{
     text-decoration: none;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 200;
     color: #3C3536;
     transition: 0.3s ease-in-out;
 }
@@ -30,12 +30,12 @@ nav{
 #navbar li a:hover::after,
 #navbar li a.active::after{
     content: '';
-    width: 30%;
+    width: 40%;
     height: 2px;
     background: #17cf97;
     position: absolute;
     bottom: -4px;
-    left: 20px;
+    left: 30px;
 }
 #mobile{
     display: none;
@@ -43,6 +43,14 @@ nav{
 #mobile i{
     color: #fff;
     align-items: center;
+}
+.sign{
+    background: #F47676;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #022B69;
+    border-bottom: 2px solid #022B69;
+    /* box-shadow: ; */
 }
 
 @media screen and (max-width:769px){

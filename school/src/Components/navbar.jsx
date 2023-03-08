@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "../styles/navbar.css";
+import { StyledButton } from "../styles/buttonStyle";
 import logo from '../assets/Images/Logo.svg'
  class Navbar extends Component {
     state ={clicked : false};
@@ -39,7 +40,9 @@ import logo from '../assets/Images/Logo.svg'
               <a href="#">Login</a>
             </li>
             <li>
+              <StyledButton>
               <a href="#" className="sign">Sign Up</a>
+              </StyledButton>
             </li>
           </ul>
         </div>

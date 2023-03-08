@@ -1,0 +1,34 @@
+.Hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.hero-heading {
+  color: rgba(2, 43, 105, 1);
+  font-family: "Poppins" sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.bright {
+  background: rgba(184, 147, 246, 1);
+  padding: 0.5rem 1rem;
+  font-family: "Poppins" sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 1);
+}
+.Hero-text {
+  text-align: start;
+}
+.blue {
+  color: rgba(61, 166, 192, 1);
+}
+.hero-para {
+  font-family: "Poppins" sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0.8rem 0;
+  line-height: 25px;
+  color: rgba(60, 53, 54, 1);
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledSponsor } from "../styles/sponsorStyle";
+import { StyledSponsor } from "../styles/HomePage.js";
 import acuity from '../assets/Images/acuityventures.5a6b7c1.svg.svg'
 import ingressive from '../assets/Images/ingressive.2541889.png.svg'
 import syndicate from '../assets/Images/syndicate.962b56b.png.svg'
@@ -18,12 +18,12 @@ const SponsorDetails = () =>{
         <StyledSponsor>
         <h4>More than <span className="orange">200+ leading schools and tutors</span> trust us</h4>
         <div className="sponsor-logo">
-            <img src={acuity} alt="acutiy image" className="sponsor-image"/>
-            <img src={ingressive} alt="ingressive image" className="sponsor-image"/>
-            <img src={syndicate} alt="syndicate image" className="sponsor-image"/>
-            <img src={Heli} alt="Heli image" className="sponsor-image"/>
-            <img src={union} alt="union image" className="sponsor-image"/>
-            <img src={magic} alt="magic image" className="sponsor-image"/>
+            <img src={acuity} alt="acutiy image" className="sponsor"/>
+            <img src={ingressive} alt="ingressive image" className="sponsor"/>
+            <img src={syndicate} alt="syndicate image" className="sponsor"/>
+            <img src={Heli} alt="Heli image" className="sponsor"/>
+            <img src={union} alt="union image" className="sponsor"/>
+            <img src={magic} alt="magic image" className="sponsor"/>
         </div>
     </StyledSponsor>
     )

@@ -1,58 +1,67 @@
 import { Component } from "react";
+import { Outlet, Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
 import { StyledButton } from "../styles/buttonStyle";
-import logo from '../assets/Images/Logo.svg'
- class Navbar extends Component {
-    state ={clicked : false};
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
-    render(){
-  return (
-    <div>
-      <nav>
-        <a href="#">
-          <img src={logo} alt="" />
-        </a>
-        <div>
-          <ul id="navbar" className={this.state.clicked ? '#navbar active'
-           : '#navbar'}>
-            <li>
-              <a className="active" href="#">
-                Home
-              </a>
-            </li>
+import logo from "../assets/Images/Logo.svg";
+class Navbar extends Component {
+  state = { clicked: false };
+  handleClick = () => {
+    this.setState({ clicked: !this.state.clicked });
+  };
+  render() {
+    return (
+      <div>
+        <nav>
+          <NavLink to="/">
+            <img src={logo} alt="" />
+          </NavLink>
 
-          
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Plus</a>
-            </li>
-            <li>
-              <a href="#">School</a>
-            </li>
-            <li>
-              <a href="#">Contact Us</a>
-            </li>
-            <li>
-              <a href="#">Login</a>
-            </li>
-            <li>
-              <StyledButton>
-              <a href="#" className="sign">Sign Up</a>
-              </StyledButton>
-            </li>
-          </ul>
-        </div>
-        <div id="mobile" onClick={this.handleClick}>
-          <i id="bar" className={this.state.clicked ? 
-          'fas fa-times' : 'fas fa-bars'}> </i>
-        </div>
-      </nav>
-    </div>
-  );
+          <div>
+            <ul
+              id="navbar"
+              className={this.state.clicked ? "#navbar active" : "#navbar"}
+            >
+              <li>
+                {/* <a className="active" href="#">
+                Home
+              </a> */}
+                <NavLink to="/">Home</NavLink>
+              </li>
+
+              <li>
+                {/* <a href="#">About</a> */}
+                <NavLink to="/about">About</NavLink>
+              </li>
+              <li>
+                <NavLink to="/plus">Plus</NavLink>
+              </li>
+              <li>
+                <NavLink to="/school">Plus</NavLink>
+              </li>
+              <li>
+                <NavLink to="/contact">Contact Us</NavLink>
+              </li>
+              <li>
+                <NavLink to="/login">Login</NavLink>
+              </li>
+              <li>
+                <StyledButton>
+                  <NavLink to="/sign">Sign Up</NavLink>
+                </StyledButton>
+              </li>
+            </ul>
+          </div>
+          <div id="mobile" onClick={this.handleClick}>
+            <i
+              id="bar"
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+            >
+              {" "}
+            </i>
+          </div>
+        </nav>
+      </div>
+    );
+  }
 }
-}
-export default Navbar
+export default Navbar;

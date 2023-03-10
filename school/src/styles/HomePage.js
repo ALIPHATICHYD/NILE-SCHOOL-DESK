@@ -21,7 +21,7 @@ export const StyledSponsor = styled.section`
     justify-content: center;
     align-items: center;
     margin-top: .5rem;
-    & > .sponsor-image{
+    & > .sponsor{
         padding-left: 1rem;
     }
   }

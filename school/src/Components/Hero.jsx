@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/Images/Image.svg";
 import "../styles/Hero.css";
-import { StyledButton } from "../styles/buttonStyle";
+import { StyledButton } from "../styles/HomePage.js";
 const Hero = () => {
   return (
     <section className="Hero">

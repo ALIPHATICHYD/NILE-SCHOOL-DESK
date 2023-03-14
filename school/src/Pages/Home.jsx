@@ -1,4 +1,5 @@
 import React from "react";
+import Founder from "../Components/founder";
 import Hero from "../Components/Hero";
 import Sponsor from "../Components/sponsor";
 const Home = () =>{
@@ -6,6 +7,7 @@ const Home = () =>{
         <div>
             <Hero />
             <Sponsor />
+            <Founder />
         </div>
     )
 }
